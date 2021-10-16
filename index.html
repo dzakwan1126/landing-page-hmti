@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing Page | Muhammad Dzakwan</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        .home, .portofolio{
+            background-color: #FFF7AE;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container">
+          <a class="navbar-brand" href="#">Dzakwan</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portofolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <section class="home text-center py-5 text-success">
+        <div class="container">
+            <img src="images/Group 2.png" alt="">
+            <h2>Muhammad Dzakwan</h2>
+            <p>Web Developer</p>
+        </div>
+    </section>
+    <section class="about text-center py-5 text-success">
+        <div class="container">
+            <h2 class="mb-3">About Me</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui recusandae esse necessitatibus eos debitis reprehenderit fugiat vitae? Enim voluptas expedita consectetur sit laborum beatae tenetur.
+                </div>
+                <div class="col-md-6">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui recusandae esse necessitatibus eos debitis reprehenderit fugiat vitae? Enim voluptas expedita consectetur sit laborum beatae tenetur.
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portofolio text-center py-5 text-success">
+        <div class="container">
+            <h2 class="mb-3">Portofolio</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/1.jpg" class="card-img-top p-2" alt="Gambar Project 1">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/2.jpg" class="card-img-top p-2" alt="Gambar Project 2">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/3.jpg" class="card-img-top p-2" alt="Gambar Project 3">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact text-success py-5">
+        <div class="container">
+            <h2 class="text-center mb-3">Contact Us</h2>
+            <form>
+                <div class="mb-3">
+                  <label for="nama" class="form-label">Nama</label>
+                  <input type="text" class="form-control" id="nama">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Pesan</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                <button type="submit" class="btn btn-success">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer class="text-center text-success">
+        <p>Created by Muhammad Dzakwan</p>
+    </footer>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
